@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main () {
-    int som, sub, mul, div, numb1, numb2;
+    int som, sub, mul, div, numb1, numb2, nmb3;
     double resto;
-    scanf("%i %i", &numb1, &numb2);
-    som = numb1 + numb2;
-    sub = numb1 - numb2;
-    mul = numb1 * numb2;
+    scanf("%i %i %i", &numb1, &numb2, &nmb3);
+    som = numb1 + numb2 + nmb3;
+    sub = numb1 - numb2 - nmb3;
+    mul = numb1 * numb2 / nmb3;
     div = numb1 / numb2;
     resto = numb1 % numb2;
     printf("soma: %i!", som);
